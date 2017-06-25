@@ -3,7 +3,7 @@ package me.kaede.mvp.home;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.*;
 import android.widget.*;
 import me.kaede.mvp.R;
@@ -14,7 +14,7 @@ import me.kaede.mvp.home.view.IHomeView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HomeActivity extends ActionBarActivity implements AdapterView.OnItemClickListener,IHomeView {
+public class HomeActivity extends AppCompatActivity implements AdapterView.OnItemClickListener,IHomeView {
 
 	private ListView listView;
 	private IHomePresenter homePresenter;
